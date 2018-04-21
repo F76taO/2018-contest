@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#bgBox{
+	background: #ffff00;
+	width: 370px;
+	height: 370px;
+	position: relative;
+	margin: 100px auto 0px;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	width: 80px;
+	height: 80px;
+	background: #cccc00;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+#moveBox{
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -185px;
+}
+#moveBox div{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	line-height: 80px;
+}
+#dv0_0 { top: 10px;  left: 10px;  }
+#dv0_1 { top: 10px;  left: 100px; }
+#dv0_2 { top: 10px;  left: 190px; }
+#dv0_3 { top: 10px;  left: 280px; }
+#dv1_0 { top: 100px; left: 10px;  }
+#dv1_1 { top: 100px; left: 100px; }
+#dv1_2 { top: 100px; left: 190px; }
+#dv1_3 { top: 100px; left: 280px; }
+#dv2_0 { top: 190px; left: 10px;  }
+#dv2_1 { top: 190px; left: 100px; }
+#dv2_2 { top: 190px; left: 190px; }
+#dv2_3 { top: 190px; left: 280px; }
+#dv3_0 { top: 280px; left: 10px;  }
+#dv3_1 { top: 280px; left: 100px; }
+#dv3_2 { top: 280px; left: 190px; }
+#dv3_3 { top: 280px; left: 280px; }
+
+.numStart{ display: none; }
+.num2   { background: #550000; display: block; }
+.num4   { background: #660000; display: block; }
+.num8   { background: #770000; display: block; }
+.num16  { background: #880000; display: block; }
+.num32  { background: #990000; display: block; }
+.num64  { background: #aa0000; display: block; }
+.num128 { background: #bb0000; display: block; }
+.num256 { background: #cc0000; display: block; }
+.num512 { background: #dd0000; display: block; }
+.num1024{ background: #ee0000; display: block; }
+.num2048{ background: #ff0000; display: block; }
+
+#scorebox{
+	width:300px;
+	height:50px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 24px;
+	position: relative;
+	top: 80px;
+	left: 50%;
+	margin-left: -150px;
+}
+#score{
+	width:200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	float: right;
+}
+#Restart{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	position: relative;
+	top: 20px;
+	left: 50%;
+	margin-left: -50px;
+}
